@@ -1,0 +1,35 @@
+//let score="45"
+//console.log(score)
+//console.log(typeof score)
+
+//let ValueInNumber=Number(score)
+//console.log(typeof ValueInNumber)
+//console.log(ValueInNumber)
+
+//--------------------------------------------------------------------------------------//
+
+//let score="45abc"
+//console.log(score)
+//console.log(typeof score)
+
+//let ValueInNumber=Number(score)
+//console.log(typeof ValueInNumber)
+//console.log(ValueInNumber)
+
+//--------------------------------------------------------------------------------------//
+//let score=null
+//console.log(score)
+//console.log(typeof score)
+
+//let ValueInNumber=Number(score)
+//console.log(typeof ValueInNumber)
+//console.log(ValueInNumber)
+
+//------------------------------------------------------------------------------------//
+let score=undefined
+console.log(score)
+console.log(typeof score)
+
+let ValueInNumber=Number(score)
+console.log(typeof ValueInNumber)
+console.log(ValueInNumber)
