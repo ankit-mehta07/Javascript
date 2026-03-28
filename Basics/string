@@ -1,0 +1,25 @@
+const Name = "world"
+const repoName = " is ending"
+console.log(Name + repoName)
+
+
+console.log("Ankit" + " Mehta")
+
+const name = "Ankit Mehta"
+const repocount = 5
+console.log(name + repocount)
+
+//Best way to write a string-- Backtics(string interpolation):
+
+console.log(`Hi I am ${name} and my repocount is ${repocount}`);
+
+const gameName = new String('Devill')
+console.log(gameName)
+console.log(gameName.__proto__)
+console.log(gameName[0])
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('E'))
