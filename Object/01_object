@@ -1,0 +1,39 @@
+const mySym= Symbol("key1")
+
+const jsUser={
+    name: "ankit",
+    age: 21,
+    email: "ankit123@google",
+    city: "Noida",
+    isLoggedin: false,
+    [mySym]: "key1"
+};
+
+
+console.log(jsUser["email"])
+console.log(jsUser["name"])
+console.log(jsUser["age"])
+console.log(jsUser["isLoggedin"])
+console.log(jsUser[mySym])
+
+
+jsUser.email="mehta123@google"
+console.log(jsUser["email"])
+
+
+
+// object.freeze(jsUser) // to stop someone to do any changes
+
+
+jsUser.greeting=function(){
+    console.log("See you all");
+
+}
+
+jsUser.greetingTwo=function(){
+    console.log(`See you all, ${this.name}`);
+
+}
+
+console.log(jsUser.greeting())
+console.log(jsUser.greetingTwo())

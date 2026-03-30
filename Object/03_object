@@ -1,0 +1,12 @@
+// Destructure
+
+const course={
+    course: "javascript",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+console.log(course.courseInstructor)
+
+const{courseInstructor:teacher}= course
+console.log(teacher)

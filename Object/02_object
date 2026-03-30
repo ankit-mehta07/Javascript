@@ -1,0 +1,38 @@
+// const tinderUser = new object()  singleton
+
+const tinderUser ={
+    id: "123abc",
+    name: "Ankit",
+    isLoggedin: false
+
+}
+
+console.log(tinderUser)
+
+//------------------------------------------------------------------------------------------------------------------------
+const regularUser={
+    id: "454cvhfst",
+    name: {
+        fullname: {
+            firstname: "Ankit",
+            Lastname: "Mehta"
+        }
+    }
+
+}
+console.log(regularUser.name)
+
+//--------------------------------------------------------------------------------------------------------------------
+
+const obj1 ={1:"a", 2:"b"}
+const obj2 ={3:"d", 4:"e"}
+
+const obj3={...obj1,...obj2}
+
+console.log(obj3)
+
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isLogged'))
